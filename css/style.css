@@ -697,7 +697,7 @@ color: var(--color-text-white);
         background: var(--accent-color);}
 
        .form-link-container {
-           margin-left: 93px;
+           margin-left: auto;
            display: flex;
            flex-direction: column;
            
