@@ -691,17 +691,21 @@ color: var(--color-text-white);
         letter-spacing: 0.06em;
         justify-content: center;  
          color: var(--color-text-white);
-        position: absolute;
+     
         width: 200px;
         height: 50px;
         background: var(--accent-color);}
 
+       .form-link-container {
+           margin-left: 93px;
+           display: flex;
+           flex-direction: column;
+           
+       }
        
        
-       
-    
     .form-mail{
-       margin-left: 93px;
+       
     }
     .input-form-mail{
         padding-left: 16px;
@@ -1032,7 +1036,7 @@ color: var(--color-text-white);
               .modal-form-icon-wrapper{
                   display: block;
                   margin-top: 4px;}
-                  
+
                   .modal-form-icon-wrapper{
                       position: relative;
                   }
