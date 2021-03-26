@@ -550,7 +550,7 @@ align-items: center;
     fill: var(--fill-icon);
     width: 170px;
     height: 90px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--fill-icon);
     border-radius: 4px;
     transition: border var(--transition-duration) var(--timing-function),
     fill var(--transition-duration) var(--timing-function);
@@ -928,6 +928,7 @@ color: var(--color-text-white);
              border: 1px solid rgba(0, 0, 0, 0.1);
              outline: none;
              cursor: pointer;
+             transition: color var(--transition-duration) var(--timing-function);
              
              }
              .modal-close {
@@ -941,8 +942,11 @@ color: var(--color-text-white);
            .modal-close-link:focus {
                border-color: rgba(0, 0, 0, 0.1);
                color: var(--accent-color);}
-              
            
+            
+              
+          
+        
              
              
             
@@ -1007,7 +1011,7 @@ color: var(--color-text-white);
        }
 
           .icon-model-form{
-              fill: #212121;
+              fill: var(--primaru-text-color);
               display: block;
               position: absolute;
               top: 50%;
@@ -1028,6 +1032,7 @@ color: var(--color-text-white);
               .modal-form-icon-wrapper{
                   display: block;
                   margin-top: 4px;}
+                  
                   .modal-form-icon-wrapper{
                       position: relative;
                   }
@@ -1062,12 +1067,13 @@ color: var(--color-text-white);
                 font-size: 14px;
                 line-height: 1.7;
                 letter-spacing: 0.03em;
-                color: #757575; }
+                color: var(--title-text-color);
+                }
 
                .modal-form-chek-link{
+                 color: var(--accent-color);}  
                    
-                   color: var(--accent-color);
-               }
+               
 
                 
            
@@ -1078,7 +1084,7 @@ color: var(--color-text-white);
                 display: block;
                 width: 16px;
                 height: 15px;
-                border: 1px solid #212121;
+                border: 1px solid var(--primaru-text-color);
                 cursor: pointer;
                
                 
@@ -1098,8 +1104,8 @@ color: var(--color-text-white);
                      }
 
                .modal-form-btn{
-                    align-self: center;
-                  
+                    
+                   align-self: center;
                    width: 200px;
                    height: 50px;
                    background: #188CE8;
